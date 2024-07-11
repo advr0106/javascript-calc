@@ -1,0 +1,30 @@
+{
+  "name": "javascript-calc",
+  "version": "1.0.0",
+  "description": "Basic calculator developed with JS/HTML/CSS.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advr0106/javascript-calc.git"
+  },
+  "jest": {
+  "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/advr0106/javascript-calc/issues"
+  },
+  "homepage": "https://github.com/advr0106/javascript-calc#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}

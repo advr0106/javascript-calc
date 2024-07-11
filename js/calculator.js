@@ -120,3 +120,15 @@ function Percentage() {
         document.getElementById("total").innerHTML = Number(document.getElementById("total").innerHTML) / 100
     }
 }
+
+// Exportar las funciones que necesitan ser probadas
+module.exports = {
+    AddNumber,
+    CalcAction,
+    AddComma,
+    Result,
+    CleanCurrentEntry,
+    CleanAll,
+    Percentage,
+    ProcessAction
+};
